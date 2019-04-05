@@ -181,13 +181,6 @@ body {
   margin-bottom: 16px;
   padding: 24px;
 }
-.cards-container .card .author {
-  display: flex;
-  justify-content: none;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 15px;
-}
 .cards-container .card .author .img-container img {
   width: 40px;
 }

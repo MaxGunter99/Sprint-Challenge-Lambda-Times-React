@@ -13,7 +13,9 @@ const Card = props => {
                 <img src={props.card.img /* image source goes here */} />
               </ImgContainerz>
             </div>
-          <span>By {props.card.author /* author goes here */}</span>
+            <Authorz>
+              <span>By {props.card.author /* author goes here */}</span>
+            </Authorz>
         </div>
         <p><strong>Tab: </strong>{props.card.tab}</p>
       </Carding>
@@ -39,6 +41,14 @@ const Carding = styled.div`
       margin-top: 15px;
     }
   }
+`;
+
+const Authorz = styled.text`
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
 `;
 
 

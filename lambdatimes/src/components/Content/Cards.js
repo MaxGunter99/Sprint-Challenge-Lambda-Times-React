@@ -10,7 +10,7 @@ const Cards = props => {
       new Card component for each passing the card as the only prop*/}
       <CardContainers>
         {props.cards.map(card =>
-            <Card card={card} />
+           <Card card={card} />
 
         )}
       </CardContainers>

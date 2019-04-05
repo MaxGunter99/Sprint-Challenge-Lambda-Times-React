@@ -18,7 +18,7 @@ const Tabs = props => {
 
           {props.tabs.map(tab => 
 
-            <Tabz>
+            <Tabz className='tab'>
 
               <Tab tab={tab} changeSelected={props.changeSelected} selectedTab={props.selectedTab}/>
 

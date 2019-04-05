@@ -51,7 +51,6 @@ export default class Content extends Component {
 
     // return this.state.cards;
     return (this.state.selected =='all' ? this.state.cards: filteredCards);
-    console.log(filteredCards);
 
   };
 
